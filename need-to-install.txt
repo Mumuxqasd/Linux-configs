@@ -1,0 +1,19 @@
+1. zsh
+2. oh-my-zsh
+3. zsh-autosuggestions
+4. zsh-syntax-highlighting
+5. powerlevel10k
+6. firefox
+7. extentions-manager
+8. Infinity-glass-icon-theme
+9. gnome-terminal-transparency
+10. rofi
+-------------------------------
+	Extentions
+1. Blur my Shell
+2. Caffeine
+3. App Icons Taskbar
+4. Logo menu
+5. Vitals
+6. Apps Menu
+-------------------------------
