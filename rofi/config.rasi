@@ -1,0 +1,96 @@
+configuration {
+    show-icons:      true;
+    display-drun:    "";
+    disable-history: false;
+}
+
+* {
+    font: "Jetbrains Mono 15";
+    foreground: rgba(0, 0, 0, 0.84);
+    background-color: rgba(0, 0, 0, 0.8);
+    selected-background:rgba(255, 68, 0, 0.34);
+    textcolor:rgb(233, 178, 0);
+    bordercolor:rgba(255, 72, 0, 0.74);
+}
+
+#window {
+    width: 450px; 
+    height: 400px;
+    background-color: @background-color;
+    border:           3px;
+    border-radius:    10;
+
+    border-color: @bordercolor;
+    padding:          15;
+}
+#mainbox {
+    border:  0;
+    padding: 0;
+    background-color: transparent;
+}
+
+#listview {
+    fixed-height: 0;
+    border:       0px;
+    spacing:      2px ;
+    scrollbar:    false;
+    padding:      2px 0px 0px ;
+    background-color: transparent;
+}
+#element {
+    border:  0;
+    padding: 3px ;
+}
+#element.normal.normal {
+    background-color: transparent;
+    text-color: @textcolor;
+}
+#element.selected.normal {
+    background-color: @selected-background;
+    text-color: @textcolor;
+    border-radius: 5px;
+}
+#element.alternate.normal {
+    background-color: transparent;
+    text-color: @textcolor;
+}
+#scrollbar {
+    width: 1px ;
+    border: 0;
+    handle-width: 8px ;
+    padding: 0;
+}
+#sidebar {
+    border: 2px dash 0px 0px ;
+}
+#button.selected {
+    text-color: @textcolor;
+}
+#inputbar {
+    spacing:    0;
+    text-color: @textcolor;
+    padding:    1px;
+    background-color: transparent;
+}
+#entry {
+    spacing:    0;
+    text-color: @textcolor;
+    background-color: transparent;
+    placeholder: "";
+}
+#inputbar {
+    children:   [textbox-prompt-colon,entry];
+}
+#prompt {
+    spacing:    0;
+    text-color: @textcolor;
+    image: url("/home/gh/Downloads/icons8-arch-linux.svg");
+}
+#textbox-prompt-colon {
+    expand:     false;
+    str:        "🐧";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @textcolor;
+    background-color: transparent;
+    font: "JetBrainsMono Mono 20";
+}
