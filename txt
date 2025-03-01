@@ -1,0 +1,2 @@
+neofetch --ascii_colors 129 135 --colors 129 129 165 135 129
+neofetch --ascii_colors 160 124 --colors 124 124 160 88 160
