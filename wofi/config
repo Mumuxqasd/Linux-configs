@@ -1,0 +1,17 @@
+[config]
+location=center
+show=drun
+width=500
+height=300
+prompt=Search
+normal_window=true
+gtk-dark=true
+allow_images=true
+image_size=32
+insensitive=true
+allow_markup=false
+no_actions=false
+orientation=vertical
+halign=fill
+content_halign=fill
+hide_scroll=true

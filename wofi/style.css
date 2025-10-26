@@ -1,0 +1,46 @@
+window {
+    background-color: #1a1b26;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 182, 24);
+}
+
+* {
+    Font-family: "Jetbrains Mono";
+    color: #ffffff;
+}
+
+#scroll {
+    padding: 0.5rem;
+}
+
+#input {
+    margin: 15px 10px 10px 10px;
+    background-color: #1a1b26;
+    color: #00b609;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+#inner-box {
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+#img {
+    margin: 10px 10px;
+}
+
+#entry:selected {
+    background-color: rgba(15, 182, 0, 0.829);
+    border-radius: 5px;
+    color: white;
+}
+
+#text:selected {
+    color: #ffffff;
+    font-size: 17px;
+}
